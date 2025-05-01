@@ -1,13 +1,13 @@
 "use client"
 import Head from "next/head"; // Import Head component
-import Image from "next/image"
-import Link from "next/link"
-import { motion } from "framer-motion"
-import { ChevronRight } from "lucide-react"
-import BookingForm from "@/components/BookingForm"
-import TestimonialCard from "@/components/TestimonialCard"
-import ServiceCard from "@/components/ServiceCard"
-import RoomCarousel from "@/components/RoomCarousel"
+import Image from "next/image";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { ChevronRight } from "lucide-react";
+import BookingForm from "@/components/BookingForm";
+import TestimonialCard from "@/components/TestimonialCard";
+import ServiceCard from "@/components/ServiceCard";
+import RoomCarousel from "@/components/RoomCarousel";
 
 export default function Home() {
   return (
@@ -19,8 +19,7 @@ export default function Home() {
           async
         ></script>
       </Head>
-      <Component {...pageProps} />
-      
+
       {/* Hero Section */}
       <section className="relative h-screen">
         <div className="absolute inset-0 bg-black/40 z-10" />
@@ -289,5 +288,5 @@ export default function Home() {
         </div>
       </section>
     </>
-  )
+  );
 }
