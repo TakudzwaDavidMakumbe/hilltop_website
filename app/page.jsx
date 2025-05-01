@@ -1,4 +1,5 @@
 "use client"
+import Head from "next/head"; // Import Head component
 import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
@@ -11,7 +12,7 @@ import RoomCarousel from "@/components/RoomCarousel"
 export default function Home() {
   return (
     <>
-    <Head>
+      <Head>
         <script
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="p0FWXbcVKXcMEL+OilnNyg"
