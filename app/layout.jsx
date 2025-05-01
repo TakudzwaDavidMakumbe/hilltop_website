@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Hilltop Guesthouse",
   description: "Experience luxury and comfort at Hilltop Guesthouse",
-    generator: 'v0.dev'
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({ children }) {

@@ -11,6 +11,15 @@ import RoomCarousel from "@/components/RoomCarousel"
 export default function Home() {
   return (
     <>
+    <Head>
+        <script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="p0FWXbcVKXcMEL+OilnNyg"
+          async
+        ></script>
+      </Head>
+      <Component {...pageProps} />
+      
       {/* Hero Section */}
       <section className="relative h-screen">
         <div className="absolute inset-0 bg-black/40 z-10" />
